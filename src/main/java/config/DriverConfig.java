@@ -53,7 +53,7 @@ public class DriverConfig {
         capabilities.setCapability("fullReset", fullReset);
         capabilities.setCapability("newCommandTimeout", 6000);
         try {
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/"), capabilities);
+            driver = new AppiumDriver(new URL("http://127.0.0.1:4725/wd/hub"), capabilities);
         } catch (MalformedURLException e) {
             throw new RuntimeException("Appium server URL is invalid", e);
         }

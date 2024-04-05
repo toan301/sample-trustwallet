@@ -13,7 +13,7 @@ Sample Mobile Test Framework to demonstrate Page Object Model with integration o
     ```bash
     npm install -g appium
     appium driver install uiautomator2
-    appium 
+    appium server -p 4725 -a 127.0.0.1 -pa /wd/hub
     ```
 2. [Launch Android emulator](https://developer.android.com/studio/run/emulator-commandline) or using [GennyMotion](https://genymotion.com/)
 3. Run Test
